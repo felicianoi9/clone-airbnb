@@ -67,6 +67,7 @@ header .header-container div:hover{
     margin: 10px;
     height: 20px;  
     border-radius: 20px; 
+    cursor: pointer;
      
 
 }
