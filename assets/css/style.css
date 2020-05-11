@@ -4,6 +4,7 @@
 }
 .container-covid-19{
     display: flex;
+    flex-flow: row wrap;
     background-color: #f7f7f7;
     height: 60px;
 }
@@ -22,3 +23,54 @@
     color: #1b1b1b;
     font-weight: bold;
 }
+header{
+    padding: 0;
+    justify-content: center;
+    justify-items: center;
+    background-color: #fff;
+    height: 60px;
+    height: 80px;
+}
+
+header .header-container{
+    display: flex;
+    
+    font-size: 14px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    text-align: center;
+    color: #484848;
+    line-height: 1.43;
+    width: 80%;
+    font-weight: 900;
+}
+
+
+header .header-container div{    
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;  
+    border-radius: 20px;  
+
+}
+header .header-container div#logo{    
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;  
+    border-radius: 20px;  
+
+}
+header .header-container div:hover{    
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;  
+    border-radius: 20px; 
+     
+
+}
+
+
+
+
