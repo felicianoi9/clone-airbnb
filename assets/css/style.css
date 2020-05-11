@@ -1,3 +1,4 @@
+/** Avisos do covid-19*/
 *{
     margin: 0;
     padding: 0;
@@ -23,55 +24,68 @@
     color: #1b1b1b;
     font-weight: bold;
 }
-header{
-    padding: 0;
+/** FIM - Avisos do covid-19*/
+
+/* Header da página */
+
+.container{
+    display: flex;
     justify-content: center;
-    justify-items: center;
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    width: 90%;
     background-color: #fff;
-    height: 60px;
     height: 80px;
 }
-
-header .header-container{
+.logo{
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+}   
+img{   
     
+    background-color: #fff;  
+    
+}
+
+.space{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+nav{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
     font-size: 14px;
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     text-align: center;
     color: #484848;
     line-height: 1.43;
-    width: 80%;
-    font-weight: 900;
 }
-
-
-header .header-container div{    
+nav div{    
     background-color: #fff;
     padding: 10px;
     margin: 10px;
     height: 20px;  
     border-radius: 20px;  
-
 }
-header .header-container div#logo{    
-    background-color: #fff;
-    padding: 10px;
-    margin: 10px;
-    height: 20px;  
-    border-radius: 20px;  
-
-}
-header .header-container div:hover{    
+nav div:hover{
     background-color: #f7f7f7;
     padding: 10px;
     margin: 10px;
     height: 20px;  
     border-radius: 20px; 
     cursor: pointer;
-     
-
 }
-
-
-
-
